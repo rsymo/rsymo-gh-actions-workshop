@@ -18,5 +18,5 @@ jobs:
 
       # List all files in the current directory for comparison before and after actions/checkout@v2.
       - run: ls -l
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: ls -l
