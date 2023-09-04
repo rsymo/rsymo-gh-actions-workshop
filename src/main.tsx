@@ -9,6 +9,8 @@ const Global = createGlobalStyle`
   }
 `;
 
+// example comment - Hello World
+
 const container = document.getElementById("root");
 const root = createRoot(container!);
 
