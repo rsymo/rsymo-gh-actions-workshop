@@ -95,9 +95,9 @@ Let's start by using one of the most basic yet commonly used actions to gain an 
     steps:
       - name: Greet the User
         run: echo "Hello World!"
-      # List all files in the current directory for comparison before and after actions/checkout@v2.
+      # List all files in the current directory for comparison before and after actions/checkout@v3.
       - run: ls -l
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: ls -l
     ```
 
