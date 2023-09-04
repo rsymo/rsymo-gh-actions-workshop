@@ -1,3 +1,13 @@
+# Notes
+- https://github.com/rsymo/rsymo-gh-actions-workshop/blob/main/docs/001-hello-world.md
+    - update checkout from v2 to v3
+- https://github.com/rsymo/rsymo-gh-actions-workshop/blob/main/docs/002-basics-of-ci-with-actions.md
+    - uses: davelosert/vitest-coverage-report-action@v1 (change v1 to v2)
+- security - cron in the GHAS exercise is now different when added
+    -  in the workshop is this, mine was different - cron: '23 18 * * 1'
+-  ...
+
+
 # GitHub Actions Workshop by GitHub
 
 > *Lift-off with GitHub Actions - it's not rocket-science (unless you use it for rockets).* 🚀
